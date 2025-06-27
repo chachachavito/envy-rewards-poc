@@ -42,15 +42,15 @@ Valida se uma **placa** pertence a um **Renault Kardian** e libera um **desconto
 
 ---
 
-## Testes de placa
+### Testes de placa
 
-Usar essas placas para testar:
+Use essas placas para testar o sistema:
 
-| Placa       | Resultado esperado |
-| ----------- | ------------------ |
-| RENAULT01   | Aprovado           |
-| INEXISTENTE | Não encontrado     |
-| INVALIDA    | Formato inválido   |
+| Placa   | Resultado esperado                                |
+|---------|---------------------------------------------------|
+| TAO4E21 | Placa de um Renault Kardian                      |
+| FMC4225 | Placa de um carro que **não** é um Renault Kardian |
+| KAR9D14 | Placa que simula uma já utilizada anteriormente   |
 
 ---
 
