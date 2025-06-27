@@ -18,7 +18,7 @@ Valida se uma **placa** pertence a um **Renault Kardian** e libera um **desconto
 1. Clonar o projeto:
 
    ```bash
-   git clone https://github.com/seu-usuario/envy-rewards-poc.git
+   git clone https://github.com/chachachavito/envy-rewards-poc.git
    ```
 
 2. Instalar as dependências:
@@ -46,11 +46,11 @@ Valida se uma **placa** pertence a um **Renault Kardian** e libera um **desconto
 
 Usar essas placas para testar:
 
-| Placa       | Resultado esperado    |
-|-------------|------------------------|
-| RENAULT01   | Aprovado               |
-| INEXISTENTE | Não encontrado         |
-| INVALIDA    | Formato inválido       |
+| Placa       | Resultado esperado |
+| ----------- | ------------------ |
+| RENAULT01   | Aprovado           |
+| INEXISTENTE | Não encontrado     |
+| INVALIDA    | Formato inválido   |
 
 ---
 
@@ -66,7 +66,7 @@ Usar essas placas para testar:
 
 Para ambientes reais, recomenda-se usar a **API oficial do SERPRO** – WSDenatran:
 
-- Catálogo: https://www.gov.br/conecta/catalogo/apis/wsdenatran  
+- Catálogo: https://www.gov.br/conecta/catalogo/apis/wsdenatran
 - Loja SERPRO: https://loja.serpro.gov.br/consultasenatran
 
 > **Importante:**  
